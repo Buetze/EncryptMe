@@ -87,7 +87,7 @@ class Encrypter:
                 print("\nContent:\n")
                 content.seek(0)
                 for cnt, line in enumerate(content):
-                    print("{}: {}".format(cnt +1, line), end = '')
+                    print("{}: {}".format(cnt + 1, line), end='')
                 print("\nwhat would you like to do?")
 
                 self.selection = self.select(self.write_txt_menu)
