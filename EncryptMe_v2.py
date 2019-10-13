@@ -3,7 +3,7 @@ source code: main.py
 date: 13.10.2019
 author: Pascal Duschen
 description:
-This program takes input of two given argument, stores them and creates or loads an encrypted file.
+This program takes input of two argument, stores them and creates or loads an encrypted file.
 """
 import pyAesCrypt
 import tkinter as tk
