@@ -38,16 +38,6 @@ class EncryptMe:
         self.bottom(self.bottom_frame)
         self.create_design(self.center_frame)
 
-
-    def create_Test_File(self):
-        for i in range(0, 20):
-            self.password_list.append(["arg" + str(i), "pw" + str(i)])
-        f = open("test.txt", "w+")
-        for list in self.password_list:
-            for element in list:
-                f.write("{0!s}\n".format(element))
-        print("file created")
-
     def load_file(self, frame):
         window = tk.Toplevel(frame)
         tk.Label(window, text="enter file name: ").grid(row=0)
